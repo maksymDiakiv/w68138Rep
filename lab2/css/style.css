@@ -1,67 +1,67 @@
 header {
-    position: fixed; /*sad*/
-    width: 100%;
-    background-color: a0a0a0;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    display: flex;
-    
-    box-shadow: 10px;
-    padding: 20px 120px;
-    z-index: 100;
-    list-style: none;
-    gap: 10%;
-    
-    
+  position: fixed; /*sad*/
+  width: 100%;
+  background-color: a0a0a0;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  
+  box-shadow: 10px;
+  padding: 20px 120px;
+  z-index: 100;
+  list-style: none;
+  gap: 10%;
+  
+  
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font: "Inter", sans-serif;
+    box-sizing: border-box;
+
   }
-  
-  
-  body {
-      margin: 0;
-      padding: 0;
-      font: "Inter", sans-serif;
-      box-sizing: border-box;
 
-    }
-  
-    h1 {
-      font-size: 50px;
-    }
-  
-    h4 {
-      font-size: 30px;
-    }
-    article {
-        display: fixed;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 120px;
-        margin-right: 120px;
-        font-size: 20px;
-        position: relative;
-        flex-direction: row;
-        align-items: baseline;
-        justify-content: baseline;
-        padding: 150px 120px;
-    }
-    .article-element{
-        width: 50%;
+  h1 {
+    font-size: 50px;
+  }
 
+  h4 {
+    font-size: 30px;
+  }
+  article {
+      display: fixed;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 120px;
+      margin-right: 120px;
+      font-size: 20px;
+      position: relative;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: baseline;
+      padding: 150px 120px;
+  }
+  .article-element{
+      width: 50%;
+
+  }
+  section {
+      display: block;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 120px;
+      margin-right: 120px;
+      font-size: 20px;
+  }
+  footer {
+    background-color: #FFF;
+    position:fixed;
+    bottom: 0px;
+    width: 1300px;
+    text-align: center;
     }
-    section {
-        display: block;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 120px;
-        margin-right: 120px;
-        font-size: 20px;
-    }
-    footer {
-      background-color: #FFF;
-      position:fixed;
-      bottom: 0px;
-      width: 1300px;
-      text-align: center;
-      }
