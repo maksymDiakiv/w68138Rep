@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    
+    <style>
+        #btn1.active {
+            background-color: red;
+        }
+        #btn2.active {
+            background-color: red;
+        }
+        #btn3.active {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" id="btn1">1</button>
+    <button type="button" id="btn2">2</button>
+    <button type="button" id="btn3">3</button>
+
+    <script src="script.js">
+    let activeBtn;
+    const btn1 = document.querySelector('#btn1');
+    const btn2 = document.querySelector('#btn2');
+    const btn3 = document.querySelector('#btn3');
+    btn1.addEventListener('click', () => handleClick(btn1));
+    btn2.addEventListener('click', () => handleClick(btn2));
+    btn3.addEventListener('click', () => handleClick(btn3));
+ 
+    function handleClick(btn){
+        if(activeBtn){
+             activeBtn.classList.remove('active')
+        }
+ 
+         btn.classList.add('active');
+         activeBtn = btn;
+        }
+     </script>
+</body>
+</html>
